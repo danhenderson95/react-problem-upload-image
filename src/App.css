@@ -1,23 +1,37 @@
 .App {
-      height: 100vh;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    
-    a {
-      color: #61dafb;
-    }
-    
-    input, textarea, label, button {
-      display: block;
-    }
-    
-    input, textarea, button {
-      width: 200px;
-      padding: 10px;
-    }
-    
-    input, textarea, button {
-      margin-bottom: 1em;
-    }
-    
+  height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  color: #61dafb;
+}
+
+input, textarea, label, button {
+  display: block;
+}
+
+input, textarea, button {
+  width: 200px;
+  padding: 10px;
+}
+
+input, textarea, button {
+  margin-bottom: 1em;
+}
+
+.action-buttons--inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crop-box-annotation {
+  margin-bottom: 0.5em;
+}
+
+.crop-container {
+  width: 100%;
+  min-height: 50vh;
+  position: relative;
+}
